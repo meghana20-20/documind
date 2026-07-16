@@ -1,0 +1,49 @@
+Introduction to Machine Learning
+
+Machine learning is a subfield of artificial intelligence that focuses on
+building systems that learn from data rather than being explicitly programmed.
+Instead of writing rules by hand, a machine learning model is trained on
+examples and learns patterns that generalize to new, unseen data.
+
+Types of Machine Learning
+
+Supervised learning uses labeled data, where each training example has an
+input and a known correct output. Common supervised learning tasks include
+classification, where the model predicts a discrete category, and regression,
+where the model predicts a continuous value.
+
+Unsupervised learning works with unlabeled data. The goal is to discover
+hidden structure, such as clusters of similar data points or a lower
+dimensional representation of the data. K-means clustering and principal
+component analysis are two classic unsupervised techniques.
+
+Reinforcement learning is a different paradigm where an agent learns by
+interacting with an environment. The agent takes actions, receives rewards or
+penalties, and gradually learns a policy that maximizes cumulative reward
+over time. Reinforcement learning has been used to train agents that play
+games, control robots, and optimize industrial processes.
+
+Neural Networks and Deep Learning
+
+Deep learning is a subset of machine learning based on artificial neural
+networks with multiple layers. Each layer transforms its input into a
+progressively more abstract representation. Convolutional neural networks
+are particularly effective for image data, while transformer architectures
+have become the dominant approach for natural language processing tasks.
+
+Overfitting and Generalization
+
+A central challenge in machine learning is generalization: a model should
+perform well not just on the data it was trained on, but on new data it has
+never seen. Overfitting occurs when a model learns the noise and specific
+quirks of the training data rather than the underlying pattern, resulting in
+poor performance on new examples. Techniques such as regularization, dropout,
+and cross-validation are commonly used to reduce overfitting.
+
+Evaluation Metrics
+
+Choosing the right evaluation metric depends on the task. For classification
+problems, accuracy, precision, recall, and F1 score are commonly used.
+Accuracy alone can be misleading on imbalanced datasets, which is why
+precision and recall are often reported together. For regression problems,
+mean squared error and mean absolute error are typical choices.
